@@ -47,7 +47,7 @@ router.put('/:_id', (req, res) => {
         else {
             res.json(employer).status(202)
         }
-    })
+    })    
 })
 
 module.exports = router
